@@ -41,7 +41,7 @@ function App() {
 
     // originalContact is what we call a computed property
     // we need to destructure the existing state of conactData by
-    // unwrapping the previous values before we update its key with the respective value
+    // unwrapping the previous values before we append ADDITIONAL elements to the array
       
     setContactsData(originalContact => {
       return(
