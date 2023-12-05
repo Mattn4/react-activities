@@ -63,9 +63,10 @@ function App() {
   // return the view (as HTML markup) for display
   return (
     <div className="App">
+      {/* handleSubmit is the eventListener tracking the submission of this form  */}
       <form onSubmit={handleSubmit}>
           {/* The value of input firstName in curly braces {...} references the state of inputData.firstName  */}
-          {/* Note that are reusing the name of the input firstName to update the key of inputData.firstName */}
+          {/* Note that we are reusing the name of the input firstName to update the key of inputData.firstName */}
           {/* Changes to input firstName is tracked by event listener handleChange */}
           <input 
               placeholder="First Name" 
@@ -74,7 +75,7 @@ function App() {
               onChange={handleChange}
           />
           {/* The value of input lastName in curly braces {...} references the state inputData.lastName  */}
-          {/* Also, note that are reusing the name of the input lastName to update the key of inputData.lastName */}
+          {/* Also, note that we are reusing the name of the input lastName to update the key of inputData.lastName */}
           {/* Changes to input lastName is also tracked by event listener handleChange */}
           <input 
               placeholder="Last Name"
