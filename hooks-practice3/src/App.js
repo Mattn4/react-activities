@@ -1,10 +1,10 @@
 import './App.css';
-import StarWars from './components/StarWarsUseEfx';
+import StarWarsUseEfx from './components/StarWarsUseEfx';
 
 function App() {
   return (
     <div className="App">
-      <StarWars/>
+      <StarWarsUseEfx />
     </div>
   );
 }
