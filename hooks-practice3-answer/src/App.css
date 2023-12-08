@@ -37,7 +37,7 @@
   }
 }
 
-/* For StarWarsUseEfx */
+/* For StarWarsUseEfx Component */
 .mainpanel{
   border: 0.5em solid lightgray;
   border-radius: 2em;
@@ -45,7 +45,7 @@
   padding: 2em;
 }
 
-/* For StarWarsList and StarWarsFavourites */
+/* For StarWarsList and StarWarsFavourites Components */
 .floatingbox{
   border: 0.5em solid lightgray;
   border-radius: 2em;
@@ -55,6 +55,8 @@
   min-height: 200px;
 }
 
+
+/* For App.js to contain floatingbox */
 .floatingboxcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -70,6 +72,7 @@ p{
   padding: 2;
 }
 
+/* For CharacterCard Component */
 .charactercard{
   background-color: lightgrey;
   padding: 0.5em;
@@ -77,8 +80,24 @@ p{
   border-radius: 0.5em;
 }
 
+/* For CharacterCard Component's Hover Effect */
 .charactercard:hover{
   cursor: pointer;
   background-color: cadetblue;
+  color: white;
+}
+
+/* For RemoveCharacterCard Component */
+.removecharactercard{
+  background-color: lightgrey;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* For RemoveCharacterCard Component's Hover Effect */
+.removecharactercard:hover{
+  cursor: pointer;
+  background-color: lightcoral;
   color: white;
 }
